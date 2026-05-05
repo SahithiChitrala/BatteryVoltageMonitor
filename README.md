@@ -6,6 +6,11 @@ This project measures battery voltage using an Arduino. A voltage divider is use
 
 ---
 
+### 💡 Why this project?
+This project demonstrates how real-world analog signals can be safely interfaced with microcontrollers using voltage scaling techniques. It highlights practical challenges like ADC limitations, signal conversion, and decision-making logic in embedded systems.
+
+---
+
 ### ⚙️ Features
 
 * ADC-based voltage measurement
@@ -57,6 +62,24 @@ Status: GOOD
 | 12.2–12.6V    | GOOD     |
 | 11.8–12.2V    | LOW      |
 | < 11.8V       | CRITICAL |
+
+---
+
+### ⚠️ Design Considerations
+- Arduino ADC limit is 5V → voltage divider required
+- Resistor values chosen to scale up to 25V safely
+- Thresholds based on 12V battery discharge characteristics
+
+---
+
+### 🧪 Testing & Validation
+Tested with multiple input voltages (5V–15V).  
+Measured output closely matched expected theoretical values with minor deviation due to ADC resolution.
+
+---
+
+### 📌 Key Achievement
+Successfully converted analog signals into accurate digital measurements and implemented real-time decision logic for battery monitoring.
 
 ---
 
