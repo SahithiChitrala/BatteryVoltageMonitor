@@ -82,8 +82,9 @@ Status: GOOD
 ---
 
 ### 📸 Output Screenshot
-
+### 📊 Sample Output
 <img width="741" height="748" alt="Screenshot 2026-05-05 174540" src="https://github.com/user-attachments/assets/8fd787aa-afe8-4382-835f-8eae557c6e97" />
+
 
 
 ---
@@ -117,6 +118,21 @@ Measured output values closely matched expected theoretical values, with minor d
 ### 📌 Key Achievement
 
 Implemented a complete analog-to-digital measurement system with real-time decision-making for battery health monitoring.
+
+---
+
+### 🧠 What I learned
+- How to interface analog signals with microcontrollers  
+- Importance of voltage scaling for hardware protection  
+- Converting ADC readings into real-world values  
+- Implementing decision logic based on sensor data
+
+---
+
+### ⚠️ Challenges Faced
+- Understanding ADC resolution and scaling
+- Debugging incorrect voltage readings due to wiring errors
+- Interpreting correct battery voltage thresholds
 
 ---
 
