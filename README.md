@@ -65,3 +65,5 @@ Status: GOOD
 * OLED display integration
 * Buzzer alert system
 * IoT-based monitoring
+<img width="1329" height="770" alt="Screenshot 2026-05-05 172112" src="https://github.com/user-attachments/assets/4adeb44d-f703-487b-8bf3-d39db458cc73" />
+<img width="741" height="748" alt="image" src="https://github.com/user-attachments/assets/8635045f-733b-4397-b83e-c2823027a5b4" />
